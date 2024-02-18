@@ -1,0 +1,9 @@
+version: '3.7'
+
+services:
+  web:
+    image: api_image
+    build:
+      context: .
+    ports:
+      - "8000:8000"
